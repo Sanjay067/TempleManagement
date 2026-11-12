@@ -1,0 +1,8 @@
+{
+  "name": "@temple/contracts",
+  "version": "1.0.0",
+  "description": "Shared contracts, enums, DTOs, and API responses for Temple Management",
+  "main": "index.js",
+  "private": true
+}
+

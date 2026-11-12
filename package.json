@@ -1,0 +1,14 @@
+{
+  "name": "temple-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Temple Management System monorepo",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "echo \"Add build scripts here\"",
+    "test": "echo \"Add test scripts here\""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@temple/database",
+  "version": "1.0.0",
+  "description": "Shared database models, connections, and schemas for Temple Management",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@temple/contracts": "*",
+    "mongoose": "^8.0.0"
+  }
+}
+

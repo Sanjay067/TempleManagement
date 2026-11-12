@@ -1,0 +1,11 @@
+{
+  "name": "@temple/shared",
+  "version": "1.0.0",
+  "description": "Shared domain services, constants, and business validators for Temple Management",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@temple/contracts": "*"
+  }
+}
+
