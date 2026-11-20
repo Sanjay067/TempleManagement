@@ -9,7 +9,8 @@ async function connectToDatabase(uri = process.env.DATABASE_URL || 'mongodb://lo
 
   try {
     const conn = await mongoose.connect(uri, {
-      autoIndex: true
+      autoIndex: true,
+      serverSelectionTimeoutMS: 2000
     });
     isConnected = true;
     console.log(`[Database] Connected successfully to ${conn.connection.host}`);
